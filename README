@@ -1,4 +1,4 @@
-/////// For user 
+/////// For User side 
 
 gcc -export-dynamic -Wall `pkg-config --cflags --libs gtk+-3.0` user.c -o user `pkg-config --cflags --libs gtk+-3.0`
 
@@ -10,7 +10,7 @@ password: 1234
 
 
 
-//For for admin
+//For for Admin side
 
 gcc -export-dynamic -Wall `pkg-config --cflags --libs gtk+-3.0` admin.c -o admin -pthread `pkg-config --cflags --libs gtk+-3.0`
 
